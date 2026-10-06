@@ -9,16 +9,15 @@ practise **black-box** and **white-box** testing with injected faults.
 ## Files
 | File | Purpose |
 |------|---------|
-| `src/Employee.java` | Employee record (ID, name, position, base salary) |
-| `src/EmployeeManagementSystem.java` | Add, update, remove, search employees (FR1–FR5, FR10) |
-| `src/PayrollProcessor.java` | Tax brackets and net pay (FR6, FR7) |
-| `src/ReportGenerator.java` | Payroll report with totals (FR8, FR9) |
-| `src/Main.java` | Demo program |
-| `src/TestRunner.java` | Automated test cases BB-01..BB-10 and WB-01..WB-05 |
+| `Employee.java` | Employee record (ID, name, position, base salary) |
+| `EmployeeManagementSystem.java` | Add, update, remove, search employees (FR1–FR5, FR10) |
+| `PayrollProcessor.java` | Tax brackets and net pay (FR6, FR7) |
+| `ReportGenerator.java` | Payroll report with totals (FR8, FR9) |
+| `Main.java` | Demo program |
+| `TestRunner.java` | Automated test cases BB-01..BB-10 and WB-01..WB-05 |
 
 ## How to run
 ```
-cd src
 javac *.java
 java Main          # demo
 java TestRunner    # runs all 15 test cases
